@@ -35,6 +35,23 @@ body {
   overflow-y: scroll;
 }
 
+/* MainContent */
+main {
+  padding: 0 40px;
+}
+
+a:visited {
+  color: #918e9b;
+}
+
+a:hover {
+  filter: brightness(60%);
+}
+
+a:active {
+  color: #918e9b;
+}
+
 /* Header */
 
 .header {
@@ -59,11 +76,6 @@ body {
   letter-spacing: -0.075em;
 }
 
-/* MainContent */
-main {
-  padding: 0 40px;
-}
-
 /* Card */
 .trip-card {
   max-width: 470px;
@@ -78,7 +90,7 @@ main {
 .trip-image {
   width: 125px;
   height: 168px;
-  /* margin-right: 19px; */
+  object-fit: cover;
 }
 
 .trip-info-wrapper {
@@ -98,8 +110,11 @@ main {
   font-weight: 300;
   line-height: 12.39px;
   text-align: left;
-  color: #918e9b;
   text-decoration: underline;
+}
+
+.map-link {
+  color: #918e9b;
 }
 
 .trip-country {
