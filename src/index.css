@@ -32,6 +32,7 @@ body {
   width: 100%;
   max-width: 550px;
   height: 704px;
+  overflow-y: scroll;
 }
 
 /* Header */
@@ -59,7 +60,7 @@ body {
 
 /* MainContent */
 main {
-  padding: 45px 40px;
+  padding: 0 40px;
 }
 
 /* Card */
@@ -70,6 +71,7 @@ main {
   grid-template: 168px 15px / 1fr 1fr;
   gap: 18px;
   align-items: center;
+  margin: 45px auto;
 }
 
 .trip-image {
