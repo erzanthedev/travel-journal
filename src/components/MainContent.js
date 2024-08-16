@@ -2,10 +2,8 @@ import Card from "./Card";
 import data from "../data.js";
 
 export default function MainContent() {
-  console.log(data);
-  return (
-    <main>
-      <Card />
-    </main>
-  );
+  const trips = data.map((trip) => {
+    return <Card key={trip.id} {...trip} />;
+  });
+  return <main>{trips}</main>;
 }
