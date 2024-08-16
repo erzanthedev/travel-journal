@@ -25,6 +25,7 @@ export default function Card() {
           </p>
         </div>
       </div>
+      <hr className="card-divider" />
     </section>
   );
 }
