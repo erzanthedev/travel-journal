@@ -1,14 +1,15 @@
 const data = [
   {
     id: 1,
-    title: "Mount Fuji",
-    location: "Japan",
-    googleMapsUrl: "https://goo.gl/maps/1DGM5WrWnATgkSNB8",
+    title: "Melbourne City",
+    location: "Australia",
+    googleMapsUrl: "https://maps.app.goo.gl/du6BiiHWXGdn26h77",
     startDate: "12 Jan, 2021",
     endDate: "24 Jan, 2021",
     description:
-      "Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,380 feet). Mount Fuji is the single most popular tourist site in Japan, for both Japanese and foreign tourists.",
-    imageUrl: "https://scrimba.com/links/travel-journal-japan-image-url",
+      "Melbourne, the capital of Victoria, is Australia's second-largest city known for its vibrant arts scene, diverse culture, and rich history. Often called the cultural capital of Australia, it boasts iconic landmarks like Federation Square, the Royal Botanic Gardens, and the bustling laneways filled with street art and cafes.",
+    imageUrl:
+      "https://images.unsplash.com/photo-1470294402047-fc1b5f39bd99?q=80&w=2500&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     id: 2,
@@ -24,49 +25,15 @@ const data = [
 
   {
     id: 3,
-    title: "Geirangerfjord",
-    location: "Norway",
-    googleMapsUrl: "https://maps.app.goo.gl/153JDT9k91kVfohdA",
-    startDate: "02 Aug, 2021",
-    endDate: "24 Oct, 2021",
+    title: "Independence Square",
+    location: "Ghana",
+    googleMapsUrl: "https://maps.app.goo.gl/Soznpj9Zp9pHnrJf7",
+    startDate: "02 Nov, 2015",
+    endDate: "24 Dec, 2015",
     description:
-      "The Geiranger Fjord is a fjord in the Sunnmøre region of Møre og Romsdal county, Norway. It is located entirely in the Stranda Municipality.",
-    imageUrl: "https://scrimba.com/links/travel-journal-norway-image-url",
-  },
-
-  {
-    id: 4,
-    title: "Geirangerfjord",
-    location: "Norway",
-    googleMapsUrl: "https://maps.app.goo.gl/153JDT9k91kVfohdA",
-    startDate: "02 Aug, 2021",
-    endDate: "24 Oct, 2021",
-    description:
-      "The Geiranger Fjord is a fjord in the Sunnmøre region of Møre og Romsdal county, Norway. It is located entirely in the Stranda Municipality.",
-    imageUrl: "https://scrimba.com/links/travel-journal-norway-image-url",
-  },
-
-  {
-    id: 5,
-    title: "Geirangerfjord",
-    location: "Norway",
-    googleMapsUrl: "https://maps.app.goo.gl/153JDT9k91kVfohdA",
-    startDate: "02 Aug, 2021",
-    endDate: "24 Oct, 2021",
-    description:
-      "The Geiranger Fjord is a fjord in the Sunnmøre region of Møre og Romsdal county, Norway. It is located entirely in the Stranda Municipality.",
-    imageUrl: "https://scrimba.com/links/travel-journal-norway-image-url",
-  },
-  {
-    id: 6,
-    title: "Geirangerfjord",
-    location: "Norway",
-    googleMapsUrl: "https://maps.app.goo.gl/153JDT9k91kVfohdA",
-    startDate: "02 Aug, 2021",
-    endDate: "24 Oct, 2021",
-    description:
-      "The Geiranger Fjord is a fjord in the Sunnmøre region of Møre og Romsdal county, Norway. It is located entirely in the Stranda Municipality.",
-    imageUrl: "https://scrimba.com/links/travel-journal-norway-image-url",
+      "Ghana's Independence Square, also known as Black Star Square, is a significant landmark located in Accra, the capital of Ghana. It was commissioned by Ghana's first president, Dr. Kwame Nkrumah, and completed in 1961 to commemorate the country's independence from British colonial rule in 1957. ",
+    imageUrl:
+      "https://images.unsplash.com/photo-1669040178874-19d6fd6c9ff6?q=80&w=3125&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
 ];
 
